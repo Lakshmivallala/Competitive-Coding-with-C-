@@ -1,0 +1,7 @@
+Why do we #include libraries?
+Why do we use namespace std?
+What is the use of the return statement in main function and other functions
+Why did you choose C++ over Java/C/Python?
+fflush(), cin.ignore(), input buffer	
+What's the use of bits include header (#include <bits/stdc++.h>)
+string :: npos

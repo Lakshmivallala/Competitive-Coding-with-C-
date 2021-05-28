@@ -1,0 +1,14 @@
+ALGORITHM- Sequence of computational steps that transform input into output
+
+DATA STRUCTURE- Way to store and organise data for efficient access and modification
+
+TO RUN A C++ FILE ON LINUX TERMINAL:
+
+g++ NameOfFile.cpp
+
+./a.out
+
+Even try:
+g++ filename.cpp -o any-name
+g++ helloworld.cpp -o hello
+./hello

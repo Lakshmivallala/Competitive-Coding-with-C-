@@ -1,0 +1,16 @@
+We use mid= low + ( high - low ) / 2  instead of 1. mid=( high + low ) / 2
+to avoid overflow
+
+Assume mid to be at x distance from low
+mid = low + x 
+
+1. mid=( high + low ) / 2
+2. low + x = ( high + low ) / 2
+3. x = ( high + low ) / 2 - low 
+4. x = ( high + low - 2 * low ) / 2 (LCM)
+5. x = ( high - low ) / 2 
+
+Subsitute value of x
+
+mid-low = ( high - low ) / 2 
+mid= low + ( high - low ) / 2 

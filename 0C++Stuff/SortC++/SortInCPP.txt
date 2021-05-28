@@ -1,0 +1,2 @@
+sort(arr,arr+r); //For array
+sort(nums.begin(),nums.end()); //For vector
