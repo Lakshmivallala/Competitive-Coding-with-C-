@@ -5,3 +5,7 @@ Why did you choose C++ over Java/C/Python?
 fflush(), cin.ignore(), input buffer	
 What's the use of bits include header (#include <bits/stdc++.h>)
 string :: npos
+Returning multiple values from a function
+Structure or class for linked list node declaration?
+Constructors and Destructors
+nothrow in C++

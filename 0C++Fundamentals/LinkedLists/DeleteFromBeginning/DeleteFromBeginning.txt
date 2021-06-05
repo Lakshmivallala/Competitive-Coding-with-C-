@@ -1,0 +1,12 @@
+Initially: head-> one -> two-> three -> NULL
+
+Now, node one must be deleted such that 
+head -> two -> three ->NULL
+
+For this, first create a pointer than points to the head i.e the first node (one)
+(p,head)->one -> two-> three -> NULL
+
+Now, change head value to head->next (i.e 2nd node or two)
+
+Now, free the node that p is pointing to (i.e node one) to get
+head -> two -> three ->NULL

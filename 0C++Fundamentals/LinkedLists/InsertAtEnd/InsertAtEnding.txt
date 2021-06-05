@@ -1,0 +1,22 @@
+Initially: head-> node1 -> node2->NULL
+
+Now, new node node3 must be inserted such that
+
+head-> node1 -> node2 -> node3 -> NULL 
+
+For this, create a new node node3, insert data value in it, and point it to NULL
+since node3 is now the end of the linked list
+
+head-> node1 -> node2->NULL and we have our node3 -> NULL
+
+If linked list is empty, let head point to new node node3
+(head->node3)
+Else, we need to change the last node's (node2) link part to node3
+We need to traverse the whole linked list to get to this node (node2)
+
+For this, take a temp pointer at head (temp=head)
+temp = temp->next until temp->next is not NULL 
+(i.e till node2->next = NULL)
+
+Now that we have traversed till node2 using temp, temp points at node2
+Using temp, point it to node3: temp->next=node3; 

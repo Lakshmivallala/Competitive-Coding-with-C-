@@ -1,0 +1,11 @@
+Initially: head-> one -> two-> three -> NULL
+
+Now, node one must be deleted such that 
+head-> one -> two-> NULL
+
+We traverse till the last node, free it, change the previous nodes next to NULL
+
+For this, we use two pointers, 
+one to reach last node, 
+one to reach second last
+Then change prev node's address to NULL and free p node

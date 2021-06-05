@@ -1,0 +1,16 @@
+Initially: head-> node1 -> node2 ---- ->NULL
+
+Now, new node node3 must be inserted such that 
+
+head -> node3 -> node1 -> node2 --- ->NULL
+
+For this, 
+1. create and insert data value into node3
+2. node3->next to head (i.e node3->next=node1 since head points to node1, 
+node3 also points to node1)
+
+Now node3 and head point to node1
+(head,node3)->node1->node2 ----- ->NULL
+
+3. Now, change head address value to node3's address such that:
+head->node3->node1->node2 ---- ->NULL
