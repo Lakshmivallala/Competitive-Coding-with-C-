@@ -9,3 +9,8 @@ Returning multiple values from a function
 Structure or class for linked list node declaration?
 Constructors and Destructors
 nothrow in C++
+Auto type of variables in C++
+if else statement shortcut
+Escape sequences
+Data type conversions in C++, C(unsigned etc), Python 
+Types of operators

@@ -1,11 +1,13 @@
 #include<iostream>
 #include<bits/stdc++.h>
 
-//https://www.geeksforgeeks.org/reverse-a-linked-list/ method 2
 using namespace std;
 
-//Time Complexity: O(n) 
-// Space Complexity: O(1)
+//OUTPUT:
+//Loop
+
+//Time complexity: O(n) (To traverse the loop)
+//Space complexity: O(n) auxillary space for hashmap
 class Node
 {
 public:
@@ -26,19 +28,20 @@ while(p!=NULL)
  cout<<endl;
 }
 
-
-void ReverseLL()
+bool DetectLoop(Node * head)
 {
-	if ((head==NULL) || (head->next==NULL))
-		return head;
-
-	Node *rest=ReverseLL(head->next);
-	head->next->next=head;
-	head->next=NULL;
-
-	return rest;
+	unordered_set<Node *> visited;
+  while(head!=NULL)
+  {
+    if (visited.find(head)!=visited.end())
+    {
+      return true;
+    }
+    visited.insert(head);
+    head=head->next;
+  }
+  return false;
 }
-
 
 void InsertAtBegin(int val) 
 {
@@ -60,10 +63,14 @@ int main()
   	InsertAtBegin(3);
   	InsertAtBegin(7);
   	InsertAtBegin(6);
-
-display();
-ReverseLL();
-display();
+    head->next->next->next=head; //creating a loop to validate
+//No loops 
+//Check how to create loops in the linked list
+if(DetectLoop(head))
+  cout<<"Loop ";
+else
+  cout<<"No Loop ";
+// display(); //Infinite loop
 
   return 0;
 }
