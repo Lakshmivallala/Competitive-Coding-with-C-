@@ -14,3 +14,4 @@ if else statement shortcut
 Escape sequences
 Data type conversions in C++, C(unsigned etc), Python 
 Types of operators
+Unordered and Ordered Linked lists, sets, maps
