@@ -15,3 +15,5 @@ Escape sequences
 Data type conversions in C++, C(unsigned etc), Python 
 Types of operators
 Unordered and Ordered Linked lists, sets, maps
+deque (Double ended queue)
+typedef

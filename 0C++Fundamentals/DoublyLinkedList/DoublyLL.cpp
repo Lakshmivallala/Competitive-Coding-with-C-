@@ -4,11 +4,10 @@ using namespace std;
 
 class Node
 {
-	//if anything is declared without public keyword
-	//then they are private by default
 public:
 	int data;
-	Node *next;	
+	Node *next;
+	Node *prev;	
 };
 
 Node *head=NULL; 
