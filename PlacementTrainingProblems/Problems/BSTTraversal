@@ -1,0 +1,81 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+class BSTNode
+{
+public:
+    int data;
+    BSTNode*left;
+    BSTNode*right;
+};
+
+BSTNode * newNode(int val) //create node in heap
+{
+    BSTNode * temp=new BSTNode(); 
+    (*temp).data=val; 
+    temp->left=temp->right=NULL;
+    return temp;
+
+}
+
+BSTNode* insert(BSTNode* root,int val)
+{    
+    if(root==NULL) //empty tree
+    {
+        return root; //setting root address as address of new node
+    }
+    if(val>root->data)
+        root->right=insert(root->right,val);
+    else
+        root->left=insert(root->left,val);
+    
+    return root;
+}
+
+void printPostorder( BSTNode* node)
+{
+    if (node == NULL)
+        return;
+     printPostorder(node->left);
+     printPostorder(node->right);
+     cout << node->data << " ";
+}
+
+void printInorder( BSTNode* node)
+{
+    if (node == NULL)
+        return;
+     printInorder(node->left);
+     cout << node->data << " ";
+     printInorder(node->right);
+}
+
+void printPreorder(BSTNode* node)
+{
+    if (node == NULL)
+        return;
+     cout << node->data << " ";
+     printPreorder(node->left);
+     printPreorder(node->right);
+}
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int n;
+    cin>>n;
+    int a[n];
+    BSTNode * root=NULL;
+    for(int i=0;i<n;i++)
+        insert(root,a[i]);
+    printPreorder(root);
+    cout<<endl;
+    printInorder(root);
+    cout<<endl;
+    printPostorder(root);
+    cout<<endl;
+    return 0;
+}

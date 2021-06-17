@@ -17,3 +17,5 @@ Types of operators
 Unordered and Ordered Linked lists, sets, maps
 deque (Double ended queue)
 typedef
+Types of errors
+NULL pointers
