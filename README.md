@@ -23,11 +23,8 @@
 
 -->
 
-#### TRACK YOUR PROGRESS: 
-- **here:** https://450dsa.com/
-- **credits:** https://github.com/AsishRaju/450-DSA
+https://450dsa.com/
 
-# DSA Cracker Sheet
 
 ## Arrays
 
