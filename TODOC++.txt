@@ -1,0 +1,39 @@
+Why do we #include libraries?
+Why do we use namespace std?
+What is the use of the return statement in main function and other functions
+Why did you choose C++ over Java/C/Python?
+fflush(), cin.ignore(), input buffer	
+What's the use of bits include header (#include <bits/stdc++.h>)
+string :: npos
+Returning multiple values from a function
+Structure or class for linked list node declaration?
+Constructors and Destructors
+nothrow in C++
+Auto type of variables in C++
+if else statement shortcut
+Escape sequences
+Data type conversions in C++, C(unsigned etc), Python 
+Types of operators
+Unordered and Ordered Linked lists, sets, maps
+deque (Double ended queue)
+typedef
+Types of errors
+NULL pointers
+Passing a node/struct node to a function (by reference)
+Virtual function in C++
+Does C++ follow top down or bottom down approach?
+Name space availability C++
+Function overloading
+++i or i++, which is faster?
+Operator Overloading in C++
+Declaring inheritance in C++
+What is bits in #include<bits/stdc++.h>
+Can we avoid iostream if we include bits/stdc++.h YES
+https://stackoverflow.com/questions/68590270/weird-results-when-printing-not-existing-list-elements-in-c
+Keywords in C++
+Is C++ a high level oop language?
+Performing some operation at end of fun after returning from function 
+import/export something to some other file?
+Operator overloading 
+Difference between array list and linked list
+Why C++? Why not java?

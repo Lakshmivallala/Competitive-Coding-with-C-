@@ -3,6 +3,20 @@
 
 using namespace std;
 
+// O/p:
+// Enter n 6
+// 1
+// 3
+// 5
+// 2
+// 5
+// 6
+// 1 3 5 2 5 6 
+// 1 3 5 2 5 
+// 999 1 3 5 2 5 
+// 999 1 999 3 5 2 5 
+// 999 999 999 999 1 999 3 5 2 5 
+
 void display(vector<int> &v1)
 {
 	for (int i = 0; i < v1.size(); ++i)	

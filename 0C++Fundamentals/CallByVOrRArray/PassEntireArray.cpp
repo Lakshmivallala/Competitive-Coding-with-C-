@@ -5,11 +5,13 @@ using namespace std;
 //The array name itself is the address of first element of that array
 //if array name is arr then you can say that arr is equivalent to the &arr[0]
 
+// 1    2    3    4    5    6    7 
+
 void disp( int * num,int n)
 {  
    for (int x=0; x<n; x++)
    {
-       cout<<*num<<"  ";
+       cout<<*num<<"    ";
        *num++;
    }
 }

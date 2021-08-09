@@ -3,9 +3,11 @@ using namespace std;
 
 //call by value
 
+// a   b   c   d   e   f   g   h   i   j 
+
 void disp( char ch)
 {
-   cout<<ch<<" ";
+   cout<<ch<<"   ";
 }
 int main()
 {

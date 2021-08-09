@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// 6 6 5 4 2 1 
+
 void F(int arr[], int n)
 {
     for(int i=n-1;i>=0;i--)

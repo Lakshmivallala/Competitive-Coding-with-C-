@@ -31,7 +31,7 @@ Structure, union and enumeration
 NULL in Python is NONE?
 History of Programming languages
 C++ over C
-Constructor overloading and overriding
+Constructor/ function/ method/ .. overloading and overriding
 Dynamic memory allocation 
 Collection framwork of Java
 Object vs executable code
@@ -43,3 +43,12 @@ I/p and O/p in Different langauges
 Integer and float division
 Topological sort
 Working with files
+C- middle level language, C++-  high level language
+Recursion vs Backtracking
+January 1 1970 (Unix time or epoch time)
+Primitive and Non Primitive data structures
+Bottom Up DP vs Top Down DP
+Branch and Bound
+What are the diff sorting methods(quick, insertion..) and their complexities
+Keywords in C, Python, Java, Most in ?
+How is Big O calculated, why are we ignoring constants and lower order terms

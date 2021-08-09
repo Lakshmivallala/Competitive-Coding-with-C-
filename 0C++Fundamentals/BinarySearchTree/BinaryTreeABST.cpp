@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//didnt declare insertfunction in this
 //inefficient leads to a lot of traversal
 
 class BSTNode

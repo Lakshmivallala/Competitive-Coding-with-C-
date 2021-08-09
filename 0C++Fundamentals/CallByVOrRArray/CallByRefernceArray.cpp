@@ -3,9 +3,11 @@ using namespace std;
 
 //call by reference
 
+// 1   2   3   4   5   6   7   8   9   0 
+
 void disp( int * num)
 {
-   cout<<*num<<" ";
+   cout<<*num<<"   ";
 }
 int main()
 {

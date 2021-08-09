@@ -2,6 +2,11 @@
 
 using namespace std;
 
+// Before swapping: a=1 b=2
+// Inside the function: x=2 y=1
+// After swapping: a=2 b=1
+// We observe that swapping operation has been performed on these two variables. CALL BY REFERNCE -> Value is modified.
+
 //observe the change
 void swapx(int *x, int * y);
 

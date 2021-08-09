@@ -4,6 +4,12 @@
 
 using namespace std;
 
+// o/p:
+// 1 removed
+// 	3	41
+// 	4	42
+// 	6	47
+
 int main()
 {
 	map<int,int> m1; //creates an empty int map

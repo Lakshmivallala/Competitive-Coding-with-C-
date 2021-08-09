@@ -8,7 +8,7 @@ int main()
   // cin>>s1>>s2; //Hello and World
   // string s3=s1+s2; //Hello World
   // cout<<s3;
-  //However, 21 and s2 must be only one word else the compiler assumes the
+  //However, s1 and s2 must be only one word else the compiler assumes the
   //space means that we are ready to take the next input
 
   string S1,S2,S3;

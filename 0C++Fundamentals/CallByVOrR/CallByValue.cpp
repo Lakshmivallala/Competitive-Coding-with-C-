@@ -2,6 +2,11 @@
 
 using namespace std;
 
+// Before swapping: a=1 b=2
+// Inside the function: x=2 y=1
+// After swapping: a=1 b=2
+// We observe that there is no swapping operation that has been performed on these two variables. CALL BY VALUE -> Value is not modified.
+
 void swapx(int x, int y);
 
 int main()

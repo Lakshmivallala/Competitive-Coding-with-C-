@@ -7,6 +7,7 @@ using namespace std;
 // O/p
 // 0 1 4 2 3
 //Time Complexity: O(V+E)
+//(visits every vertex and edge)
 
 class Graph
 {
