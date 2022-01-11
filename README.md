@@ -1,2 +1,2 @@
 # Competitive-Coding-with-CPP
-Training files.
+Training files (C++).
